@@ -33,10 +33,10 @@ const logoutHandler = () => {
                     <NavDropdown.Item >
                       Profile
                     </NavDropdown.Item>
-                  </LinkContainer>
-                  <NavDropdown.Item onClick={logoutHandler}>
-                  Logout
-                  </NavDropdown.Item>
+                    </LinkContainer>
+                    <NavDropdown.Item onClick={logoutHandler}>
+                    Logout
+                    </NavDropdown.Item>
                 </NavDropdown>
               ) : <LinkContainer to="/login">
                 <Nav.Link>
